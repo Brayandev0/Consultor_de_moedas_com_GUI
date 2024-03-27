@@ -12,7 +12,7 @@ Assim que o úsuario clicar em um botão os dados serão enviado a API e abrira 
 
 segunda pagina : 
 
-![image](https://github.com/Brayandev0/Consultor_de_moedas_com_interface_grafica/assets/84828739/2b0c4736-789a-4d83-9c8d-108aa64f4be0)
+![image](https://github.com/Brayandev0/Consultor_de_moedas_com_GUI/assets/84828739/6df86979-b619-42ef-8399-34e7dd0a129d)
 
 
 nesta página ira mostrar as informações de consulta da moeda escolhido 
