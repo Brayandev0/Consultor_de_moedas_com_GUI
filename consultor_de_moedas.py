@@ -17,6 +17,7 @@ def requisicao(moeda_escolhida):
           info_moeda.value += f"\nMaior Alta  : {total["high"]} R$ \n"
           info_moeda.value += f"\nMaior Baixa : {total["low"]} R$ \n"
           info_moeda.value += f"\nPorcentagem de variação : {total["pctChange"]} R$ \n"
+          info_moeda.value += f"Data da consulta : {total["date"]} \n"
 #Verifica a moeda e define para a requisição
 def verificando_a_moeda(moeda):
        match moeda:
