@@ -4,6 +4,10 @@
 # data da criação : 20/2/2024
 import flet as ft 
 import requests
+import datetime 
+data = datetime.datetime.now().date()
+hora = datetime.datetime.now().hour
+minuto = datetime.datetime.now().minute
 moeda__ = ""
 #Realiza a requisição da api
 def requisicao(moeda_escolhida):
@@ -17,7 +21,9 @@ def requisicao(moeda_escolhida):
           info_moeda.value += f"\nMaior Alta  : {total["high"]} R$ \n"
           info_moeda.value += f"\nMaior Baixa : {total["low"]} R$ \n"
           info_moeda.value += f"\nPorcentagem de variação : {total["pctChange"]} R$ \n"
-          info_moeda.value += f"Data da consulta : {total["date"]} \n"
+          info_moeda.value += f"\nData da consulta : {data} \n"
+          info_moeda.value += f"\nHora da consulta : {hora} : {minuto} \n"
+
 #Verifica a moeda e define para a requisição
 def verificando_a_moeda(moeda):
        match moeda:
