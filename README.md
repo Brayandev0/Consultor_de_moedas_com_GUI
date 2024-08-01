@@ -2,10 +2,11 @@
 Um programa feito em python cujo objetivo e consultar cotações atuais de moedas
 utilizei a biblioteca flet para criar a interface 
 ## Tecnologias usadas
-- **Flet**
+- **Biblioteca Flet**
 - **Biblioteca Requests**
 - **Api de cotações**
 - **Biblioteca DateTime**
+- **Python 3.12.0**
 ## Pagina principal 
 
 
