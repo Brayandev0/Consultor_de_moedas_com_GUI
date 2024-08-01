@@ -1,7 +1,11 @@
 # Consultor_de_moedas_com_interface_grafica
 Um programa feito em python cujo objetivo e consultar cotações atuais de moedas
 utilizei a biblioteca flet para criar a interface 
-
+## Tecnologias usadas
+- **Flet**
+- **Biblioteca Requests**
+- **Api de cotações**
+- **Biblioteca DateTime**
 ## Pagina principal 
 
 
